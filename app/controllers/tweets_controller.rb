@@ -10,7 +10,7 @@ class TweetsController < ApplicationController
     tdate = params[:tweet][:tdate]
     tweet = Tweet.new(message: message, tdate: tdate)
     tweet.save
-    redirect '/'
+    redirect_to '/'
   end
   def show
     @tweet = Tweet.find(params[:id])
