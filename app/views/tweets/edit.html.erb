@@ -1,7 +1,5 @@
 <%= form_for @tweet, url: {action: :update} do |f| %>
     <%= f.label :message, 'メッセージ' %>
     <%= f.text_filed :message %>
-    <%= f.label :tdate, '日時' %>
-    <%= f.text_filed :tdate %>
     <%= f.submit '更新' %>
 <% end %>

@@ -7,7 +7,7 @@ class TweetsController < ApplicationController
   end
   def create
     message = params[:tweet][:message]
-    tdate = params[:tweet][:tdate]
+    tdate = DateTime.now
     tweet = Tweet.new(message: message, tdate: tdate)
     tweet.save
     redirect_to '/'
@@ -25,7 +25,7 @@ class TweetsController < ApplicationController
   end
   def update
     message = params[:tweet][:message]
-    tdate = params[:tweet][:tdate]
+    tdate = DateTime.now
     tweet = Tweet.find(params[:id])
     tweet.update(message: message, tdate: tdate)
     tweet.save
