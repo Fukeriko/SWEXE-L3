@@ -1,4 +1,4 @@
-<% form_for @tweet, url: {action: :create} do |f| %>
+<%= form_for @tweet, url: {action: :create} do |f| %>
     <%= f.label :message, 'メッセージ' %>
     <%= f.text_filed :message %>
     <%= f.label :tdate, '日時' %>
