@@ -1,7 +1,7 @@
 <h1>Tweeter</h1>
 <p>なにしてる</p>
 
-    <% @tweet.each do |tweet| %>
+    <% @tweets.each do |tweet| %>
         <p>
             <% tweet.message %>, <% tweet.tdate %>
             <% link_to '表示', "/tweets/#{tweet.id}" %>
