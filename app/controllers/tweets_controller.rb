@@ -32,7 +32,7 @@ class TweetsController < ApplicationController
     tdate = DateTime.now
     @tweet = Tweet.find(params[:id])
     @tweet.update(message: message, tdate: tdate)
-    if tweet.save
+    if @tweet.save
       flash[:notice] = '投稿を編集しました'
       redirect_to '/'
     else
