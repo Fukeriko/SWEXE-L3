@@ -8,9 +8,13 @@ class TweetsController < ApplicationController
   def create
     message = params[:tweet][:message]
     tdate = DateTime.now
-    tweet = Tweet.new(message: message, tdate: tdate)
-    tweet.save
-    redirect_to '/'
+    @tweet = Tweet.new(message: message, tdate: tdate)
+    if @tweet.save
+      flash[:notice] = '投稿しました'
+      redirect_to '/'
+    else
+      render 'new'
+    end
   end
   def show
     @tweet = Tweet.find(params[:id])
@@ -26,9 +30,13 @@ class TweetsController < ApplicationController
   def update
     message = params[:tweet][:message]
     tdate = DateTime.now
-    tweet = Tweet.find(params[:id])
-    tweet.update(message: message, tdate: tdate)
-    tweet.save
-    redirect_to '/'
+    @tweet = Tweet.find(params[:id])
+    @tweet.update(message: message, tdate: tdate)
+    if tweet.save
+      flash[:notice] = '投稿を編集しました'
+      redirect_to '/'
+    else
+      render 'edit'
+    end
   end
 end
