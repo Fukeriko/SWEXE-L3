@@ -1,5 +1,24 @@
+header
+.sidebar
+.content
+footer
 
+.header,.sidebar{
+    width: auto;
+    height: auto;
+}
 
+.header{
+    float: left;
+}
+
+.sidebar{
+    float: right;
+}
+
+.footer{
+    clear:both;
+}
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
