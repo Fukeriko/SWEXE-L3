@@ -21,7 +21,9 @@ body{
 
 #content{
     width: 400px;
-    float: right;
+    position:absolute;
+    bottom: 500;
+    left: 500;
 }
 
 #footer{
