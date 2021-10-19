@@ -10,7 +10,7 @@ body{
     width: 600px;
     position: absolute;
     top:0px;
-    left: 300px;
+    left: 500px;
 }
 
 #sidebar{
@@ -24,7 +24,7 @@ body{
     width: 600px;
     position:absolute;
     top: 10px;
-    left: 300px;
+    left: 500px;
 }
 
 #footer{
