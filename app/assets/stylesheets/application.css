@@ -8,7 +8,9 @@ body{
 
 #header{
     width: 400px;
-    float: right;
+    position: absolute;
+    top:0px;
+    left: 200px;
 }
 
 #sidebar{
