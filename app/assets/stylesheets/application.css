@@ -20,8 +20,8 @@ body{
 }
 
 #content{
-    width: 800px;
-    clear: right;
+    width: 400px;
+    float: right;
 }
 
 #footer{
