@@ -8,11 +8,11 @@
 }
 
 #header{
-    float: left;
+    float: right;
 }
 
 #sidebar{
-    float: right;
+    float: left;
 }
 
 #footer{
