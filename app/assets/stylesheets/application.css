@@ -16,7 +16,7 @@
 }
 
 #content{
-    float: right;
+    clear: right;
 }
 
 #footer{
