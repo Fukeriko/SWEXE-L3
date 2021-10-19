@@ -15,7 +15,7 @@ body{
 #sidebar{
     width: 300px;
     position:absolute;
-    bottom:700px;
+    bottom:10px;
     left:0px;
 }
 
