@@ -1,0 +1,10 @@
+<% @tweets.each do |tweet| %>
+    <p>
+        <%= tweet.message %>, <%= tweet.tdate %>,
+        <% 
+            pt = (Time.now - tweet.tdate) / 60
+            ptm = pt.round
+        %>
+        <%= ptm %>分経過
+    </p>
+<% end %>
