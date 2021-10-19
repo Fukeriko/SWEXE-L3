@@ -15,6 +15,10 @@
     float: left;
 }
 
+#content{
+    flote:right
+}
+
 #footer{
     clear:both;
 }
