@@ -3,8 +3,7 @@
 #footer
 
 body{
-    width: 500px;
-    height: 400px;
+   
 }
 
 #header{
@@ -23,7 +22,7 @@ body{
     width: 300px;
     position:absolute;
     bottom: 0px;
-    left: 500px;
+    left: px;
 }
 
 #footer{
