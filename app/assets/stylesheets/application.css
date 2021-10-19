@@ -19,10 +19,10 @@ body{
 }
 
 #content{
-    width: 300px;
+    width: 400px;
     position:absolute;
     bottom: 0px;
-    left: px;
+    left: 200px;
 }
 
 #footer{
