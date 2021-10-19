@@ -2,7 +2,7 @@
 #sidebar
 #footer
 
-#header,#sidebar{
+#header,#sidebar,#content{
     width: 500px;
     height: 300px;
 }
