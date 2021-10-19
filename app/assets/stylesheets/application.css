@@ -3,8 +3,8 @@
 #footer
 
 #header,#sidebar{
-    width: auto;
-    height: auto;
+    width: 70%;
+    height: 70%;
 }
 
 #header{
