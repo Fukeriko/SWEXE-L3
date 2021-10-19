@@ -15,15 +15,15 @@ body{
 #sidebar{
     width: 180px;
     position:absolute;
-    bottom:700;
-    left:0;
+    bottom:700px;
+    left:0px;
 }
 
 #content{
     width: 400px;
     position:absolute;
-    bottom: 500;
-    left: 500;
+    bottom: 0px;
+    left: 500px;
 }
 
 #footer{
