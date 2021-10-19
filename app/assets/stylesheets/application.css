@@ -1,21 +1,21 @@
-header
-.sidebar
-footer
+#header
+#sidebar
+#footer
 
-.header,.sidebar{
+#header,#sidebar{
     width: auto;
     height: auto;
 }
 
-.header{
+#header{
     float: left;
 }
 
-.sidebar{
+#sidebar{
     float: right;
 }
 
-.footer{
+#footer{
     clear:both;
 }
 
